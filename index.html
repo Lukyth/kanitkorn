@@ -38,7 +38,7 @@
 </head>
 <body>
     <div class="mdl-layout mdl-js-layout">
-        <main class="mdl-layout__content">
+        <main class="mdl-layout__content content-wrapper">
             <div class="mdl-grid container">
                 <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-cell--middle avatar">
                     <!-- avatar generated from http://www.icongenerators.net/pixelavatar.html -->
@@ -51,36 +51,47 @@
                     </p>
                 </div>
                 <div class="mdl-cell mdl-cell--12-col mdl-grid mdl-grid--no-spacing social">
-
-                    <div class="mdl-cell">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--github mdl-button--icon" title="Find me on Github" href="https://github.com/lukyth" target="_blank">
+                    <div class="mdl-cell mdl-cell--1-col-phone">
+                        <a id="social-button--github" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--github mdl-button--icon" href="https://github.com/lukyth" target="_blank">
                             <i class="fa fa-github"></i>
                         </a>
+                        <div class="mdl-tooltip" for="social-button--github">Github</div>
                     </div>
-                    <div class="mdl-cell">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--twitter mdl-button--icon" title="Find me on Twitter" href="https://twitter.com/kanitkornk" target="_blank">
+                    <div class="mdl-cell mdl-cell--1-col-phone">
+                        <a id="social-button--twitter" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--twitter mdl-button--icon" href="https://twitter.com/kanitkornk" target="_blank">
                             <i class="fa fa-twitter"></i>
                         </a>
+                        <div class="mdl-tooltip" for="social-button--twitter">Twitter</div>
                     </div>
-                    <div class="mdl-cell">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--gplus mdl-button--icon" title="Find me on Google+" href="https://google.com/+kanitkornsujautra" target="_blank">
+                    <div class="mdl-cell mdl-cell--1-col-phone">
+                        <a id="social-button--gplus" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--gplus mdl-button--icon" href="https://google.com/+kanitkornsujautra" target="_blank">
                             <i class="fa fa-google-plus"></i>
                         </a>
+                        <div class="mdl-tooltip" for="social-button--gplus">Google+</div>
                     </div>
-                    <div class="mdl-cell">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--linkedin mdl-button--icon" title="Find me on Linkedin" href="https://linkedin.com/in/kanitkorn" target="_blank">
+                    <div class="mdl-cell mdl-cell--1-col-phone">
+                        <a id="social-button--linkedin" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--linkedin mdl-button--icon" href="https://linkedin.com/in/kanitkorn" target="_blank">
                             <i class="fa fa-linkedin"></i>
                         </a>
+                        <div class="mdl-tooltip" for="social-button--linkedin">Linkedin</div>
                     </div>
-                    <div class="mdl-cell">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--facebook mdl-button--icon" title="Find me on Facebook" href="https://fb.com/kanitkornk" target="_blank">
+                    <div class="mdl-cell mdl-cell--1-col-phone">
+                        <a id="social-button--facebook" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--facebook mdl-button--icon" href="https://fb.com/kanitkornk" target="_blank">
                             <i class="fa fa-facebook"></i>
                         </a>
+                        <div class="mdl-tooltip" for="social-button--facebook">Facebook</div>
                     </div>
-                    <div class="mdl-cell">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--instagram mdl-button--icon" title="Find me on Instagram" target="_blank">
+                    <div class="mdl-cell mdl-cell--1-col-phone">
+                        <a id="social-button--instagram" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--instagram mdl-button--icon" target="_blank">
                             <i class="fa fa-instagram"></i>
                         </a>
+                        <div class="mdl-tooltip" for="social-button--instagram">Instagram</div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--1-col-phone">
+                        <a id="social-button--email" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--email mdl-button--icon" title="Email me" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <div class="mdl-tooltip" for="social-button--email">Email</div>
                     </div>
                 </div>
             </div>

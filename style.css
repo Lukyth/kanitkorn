@@ -1,5 +1,9 @@
+.content-wrapper {
+    display: flex;
+}
 .container {
     max-width: 640px;
+    align-self: center;
 }
 .avatar {
     text-align: center;
@@ -11,7 +15,8 @@
 .social {
     justify-content: space-around;
 }
-.social .mdl-cell {
-    width: 16.666666%;
+.social > .mdl-cell {
+    width: 14.2857142%;
     text-align: center;
+    padding-bottom: 16px;
 }
