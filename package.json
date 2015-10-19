@@ -1,0 +1,25 @@
+{
+  "name": "kanitkorn.com",
+  "version": "1.0.0",
+  "description": "My landing page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukyth/kanitkorn.com.git"
+  },
+  "author": {
+    "email": "k.sujautra@gmail.com",
+    "name": "Kanitkorn Sujautra"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lukyth/kanitkorn.com/issues"
+  },
+  "homepage": "https://github.com/Lukyth/kanitkorn.com#readme",
+  "dependencies": {
+    "font-awesome": "^4.4.0",
+    "material-design-lite": "^1.0.5"
+  }
+}
