@@ -20,6 +20,6 @@
   "homepage": "https://github.com/Lukyth/kanitkorn.com#readme",
   "dependencies": {
     "font-awesome": "^4.5.0",
-    "material-design-lite": "^1.1.1"
+    "material-design-lite": "^1.1.2"
   }
 }
