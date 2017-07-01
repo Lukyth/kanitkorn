@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Lukyth/kanitkorn.com#readme",
   "dependencies": {
-    "font-awesome": "^4.6.3",
+    "font-awesome": "^4.7.0",
     "material-design-lite": "^1.3.0"
   }
 }
